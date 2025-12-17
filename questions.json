@@ -1,0 +1,842 @@
+[
+    {
+        "id": 1,
+        "nivel": "INICIANTE",
+        "pergunta": "[CENÁRIO] Você está na Bot Lane. A primeira wave e os 3 primeiros minions combatentes da segunda wave acabaram de morrer. Você e seu oponente estão na rota. O que acontece agora?",
+        "opcoes": {
+            "A": "Você deve recuar, pois o caçador inimigo terminou o primeiro buff.",
+            "B": "Quem abateu esses minions primeiro atingiu o nível 2 e tem vantagem de status e habilidades.",
+            "C": "A wave vai resetar automaticamente no meio da rota.",
+            "D": "O ouro acumulado permite fechar o primeiro item básico."
+        },
+        "correta": "B",
+        "explicacao": "O 'Power Spike' do nível 2 na bot lane é decidido exatamente no 9º minion (1 wave completa + 3 combatentes). Quem chega antes pode forçar uma luta com 2 habilidades contra 1 do inimigo.",
+        "hint": "Conte os minions da segunda wave."
+    },
+    {
+        "id": 2,
+        "nivel": "INICIANTE",
+        "pergunta": "[CENÁRIO] Você acabou de abater o seu oponente na rota e a wave de minions está exatamente no meio. Você está com 30% de vida e tem ouro para um item importante. Qual a melhor ação?",
+        "opcoes": {
+            "A": "Dar Recall imediatamente para não arriscar morrer para o caçador.",
+            "B": "Ficar na rota e tentar levar a torre inteira sozinho.",
+            "C": "Dar 'Hard Push' para jogar os minions sob a torre inimiga e depois dar Recall.",
+            "D": "Congelar a rota (Freeze) e esperar o inimigo voltar para matá-lo de novo."
+        },
+        "correta": "C",
+        "explicacao": "Ao 'crashar' a wave na torre inimiga, você faz o adversário perder ouro/XP para a torre e garante que a rota volte para você (reset) quando você retornar da base.",
+        "hint": "Pense no que a torre faz com os minions inimigos."
+    },
+    {
+        "id": 3,
+        "nivel": "INICIANTE",
+        "pergunta": "Qual é o principal objetivo da Sentinela de Controle (Pink) posicionada no Pixel Brush (moita pequena no rio)?",
+        "opcoes": {
+            "A": "Revelar se o inimigo está fazendo o Dragão ou Barão.",
+            "B": "Ajudar o Mid Laner a farmar com mais segurança.",
+            "C": "Rastrear a movimentação do caçador inimigo entre as rotas e os objetivos.",
+            "D": "Impedir que o inimigo use o Teleporte nos minions do rio."
+        },
+        "correta": "C",
+        "explicacao": "O Pixel Brush é um ponto de trânsito obrigatório. Ter visão ali avisa todo o time sobre rotações do caçador ou roaming do mid adversário.",
+        "hint": "Pontos de trânsito são vitais."
+    },
+    {
+        "id": 4,
+        "nivel": "INICIANTE",
+        "pergunta": "[CENÁRIO] Você é um suporte de utilidade e seu ADC foi para a base. A wave inimiga está chegando na sua torre. O que você deve fazer?",
+        "opcoes": {
+            "A": "Limpar a wave o mais rápido possível para ganhar o ouro.",
+            "B": "Tankar a wave brevemente fora do alcance da torre para manter o Freeze para seu ADC.",
+            "C": "Ir para o Mid tentar um gank, já que o bot está vazio.",
+            "D": "Dar recall junto com o ADC para manter o tempo sincronizado."
+        },
+        "correta": "B",
+        "explicacao": "Segurar a wave evita que a torre 'coma' o farm do seu ADC. Isso mantém a vantagem de recursos para o seu carregador.",
+        "hint": "Ouro para o ADC é prioridade."
+    },
+    {
+        "id": 5,
+        "nivel": "INICIANTE",
+        "pergunta": "O que o bônus do Arauto do Vale (Rift Herald) fornece prioritariamente antes dos 14 minutos?",
+        "opcoes": {
+            "A": "Dano verdadeiro contra campeões inimigos.",
+            "B": "Velocidade de movimento na selva.",
+            "C": "Dano massivo em estruturas para coletar Placas de Torre.",
+            "D": "Um escudo permanente contra dano mágico."
+        },
+        "correta": "C",
+        "explicacao": "O Arauto é usado para garantir o ouro das placas antes que elas desapareçam aos 14 minutos, acelerando o fechamento de itens.",
+        "hint": "Placas valem ouro."
+    },
+    {
+        "id": 6,
+        "nivel": "INTERMEDIÁRIO",
+        "pergunta": "[CENÁRIO] O jogo está aos 20 minutos. Você é o Top Laner e tem Teleporte disponível. O Barão está vivo. Onde você deve exercer pressão?",
+        "opcoes": {
+            "A": "Na Rota Superior (Top), para estar perto do Barão.",
+            "B": "Na Rota Inferior (Bot), forçando o inimigo a escolher entre você ou o Barão.",
+            "C": "No meio do mapa (Mid) ajudando o time a limpar waves.",
+            "D": "Dentro do covil do Barão limpando a visão inimiga."
+        },
+        "correta": "B",
+        "explicacao": "Como você tem TP, você deve ir para a rota mais distante do objetivo principal. Se o inimigo te focar, seu time faz Barão. Se eles focarem o Barão, você leva a base.",
+        "hint": "Use o TP como uma ferramenta de presença global."
+    },
+    {
+        "id": 7,
+        "nivel": "INTERMEDIÁRIO",
+        "pergunta": "O que significa 'Prioridade de Rota' (Lane Priority)?",
+        "opcoes": {
+            "A": "Ter um campeão que é melhor que o do adversário no 1v1.",
+            "B": "Ter mais abates que o oponente de rota.",
+            "C": "Empurrar a wave primeiro, permitindo rotacionar para o rio antes do oponente.",
+            "D": "Ser o jogador com o maior nível do time."
+        },
+        "correta": "C",
+        "explicacao": "Ter prioridade significa que seus minions estão na torre inimiga. Se uma luta estourar no rio, você chega primeiro e o inimigo perde farm se te seguir.",
+        "hint": "Quem chega primeiro na luta?"
+    },
+    {
+        "id": 8,
+        "nivel": "INTERMEDIÁRIO",
+        "pergunta": "[CENÁRIO] Seu time venceu uma luta 3 por 0 no Mid aos 25 minutos. As ondas laterais estão recuadas contra vocês. Qual o melhor 'Tempo' de jogada?",
+        "opcoes": {
+            "A": "Correr para o Barão imediatamente, mesmo sem visão.",
+            "B": "Empurrar as ondas laterais (lanes) para gerar pressão e depois dar Recall.",
+            "C": "Ficar na selva inimiga roubando o bônus Vermelho (Red).",
+            "D": "Tentar levar o inibidor do Mid sem minions."
+        },
+        "correta": "B",
+        "explicacao": "Empurrar as rotas garante que o inimigo tenha que limpar os minions ao renascer, impedindo-os de contra-atacar enquanto seu time está na base.",
+        "hint": "Resete o mapa antes de resetar na base."
+    },
+    {
+        "id": 9,
+        "nivel": "INTERMEDIÁRIO",
+        "pergunta": "Como você deve reagir a um campeão inimigo que está 'Feddado' (muito forte)?",
+        "opcoes": {
+            "A": "Tentar solar ele para ganhar o bônus de recompensa (Shutdown).",
+            "B": "Evitar lutas diretas e focar controle de grupo (CC) nele em lutas de equipe.",
+            "C": "Desistir de defender as torres onde ele está pressionando.",
+            "D": "Comprar apenas itens de dano para tentar matá-lo mais rápido."
+        },
+        "correta": "B",
+        "explicacao": "Coordenação e CC são as únicas formas consistentes de parar alguém muito forte. Tentar solar geralmente só aumenta a vantagem dele.",
+        "hint": "A união faz a força."
+    },
+    {
+        "id": 10,
+        "nivel": "INTERMEDIÁRIO",
+        "pergunta": "Qual a função de um Assassino em uma luta de equipe (Teamfight)?",
+        "opcoes": {
+            "A": "Ser o primeiro a iniciar a luta para gastar as habilidades inimigas.",
+            "B": "Bater no tanque inimigo para ajudar o ADC.",
+            "C": "Flanquear e esperar os controles de grupo inimigos serem gastos para abater o alvo frágil.",
+            "D": "Ficar ao lado do ADC protegendo-o com escudos."
+        },
+        "correta": "C",
+        "explicacao": "Assassinos dependem de timing. Eles entram quando a ameaça de CC passou e os alvos (Mid/ADC) estão expostos.",
+        "hint": "Paciência e flanco."
+    },
+    {
+        "id": 11,
+        "nivel": "AVANÇADO",
+        "pergunta": "[CENÁRIO] Você é o Caçador. Seu Top Laner está sofrendo um 'Slow Push' de uma onda gigante que vai bater na torre dele. O Dragão nasce em 20 segundos. Onde você deve estar?",
+        "opcoes": {
+            "A": "No Dragão, garantindo o posicionamento de visão.",
+            "B": "No Top, cobrindo o possível 'dive' e ajudando a limpar a wave.",
+            "C": "No Mid, tentando um gank rápido para compensar o Dragão.",
+            "D": "Fazendo seus campos de selva do lado oposto ao dragão."
+        },
+        "correta": "B",
+        "explicacao": "Se o Top inimigo divar com essa wave, seu Top Laner perde 3 waves de XP e o jogo acaba para ele. Cobrir o dive é mais importante que o primeiro ou segundo dragão.",
+        "hint": "Perda de XP massiva invalida jogadores."
+    },
+    {
+        "id": 12,
+        "nivel": "AVANÇADO",
+        "pergunta": "Em uma estratégia de 'Split Push', qual a regra de ouro para o jogador solitário?",
+        "opcoes": {
+            "A": "Avançar até a base inimiga, não importa onde o time esteja.",
+            "B": "Sincronizar a pressão: avançar apenas se o seu time estiver pressionando outro objetivo oposto.",
+            "C": "Usar o Teleporte para voltar para a base se alguém aparecer.",
+            "D": "Sempre lutar contra quem vier te parar, mesmo em desvantagem."
+        },
+        "correta": "B",
+        "explicacao": "O Split Push sem pressão simultânea do time é apenas suicídio. O inimigo não deve conseguir te colapsar sem perder algo valioso no outro lado do mapa.",
+        "hint": "O inimigo deve ter um dilema."
+    },
+    {
+        "id": 13,
+        "nivel": "AVANÇADO",
+        "pergunta": "O que caracteriza uma composição de 'Poke' e qual sua fraqueza?",
+        "opcoes": {
+            "A": "Dano de curta distância; fraqueza: falta de mobilidade.",
+            "B": "Dano à distância constante; fraqueza: 'Hard Engage' (iniciação direta).",
+            "C": "Muitos tanques; fraqueza: falta de dano para finalizar.",
+            "D": "Dependência de invisibilidade; fraqueza: sentinelas de controle."
+        },
+        "correta": "B",
+        "explicacao": "Composições de poke querem te cansar de longe. Se você iniciar uma luta direta (engage) rapidamente, eles perdem a vantagem de distância.",
+        "hint": "Encurte a distância."
+    },
+    {
+        "id": 14,
+        "nivel": "AVANÇADO",
+        "pergunta": "[CENÁRIO] O inimigo tem uma Evelynn (caçadora invisível). Como deve ser o posicionamento das suas sentinelas comuns (amarelas)?",
+        "opcoes": {
+            "A": "Nas moitas da rota (bushes laterais).",
+            "B": "Diretamente em cima dos acampamentos da selva dela (Gromp/Acuâminas).",
+            "C": "Na entrada da base inimiga.",
+            "D": "Não deve colocar, pois ela é invisível."
+        },
+        "correta": "B",
+        "explicacao": "A invisibilidade da Evelynn só ativa fora de combate. Ao wardar os acampamentos, você a vê enquanto ela limpa a selva, rastreando sua posição.",
+        "hint": "Veja ela antes de ela sumir."
+    },
+    {
+        "id": 15,
+        "nivel": "AVANÇADO",
+        "pergunta": "Qual o benefício estratégico do Dragão Ancião (Elder Dragon) em comparação ao Barão?",
+        "opcoes": {
+            "A": "O Ancião ajuda a levar torres mais rápido.",
+            "B": "O Ancião garante regeneração de mana.",
+            "C": "O Ancião é um buff de combate puro que executa inimigos com pouca vida.",
+            "D": "O Ancião aumenta a vida máxima de todos os aliados."
+        },
+        "correta": "C",
+        "explicacao": "Enquanto o Barão é para cercos e torres, o Ancião serve para encerrar o jogo através de lutas, tornando quase impossível perder um 5v5.",
+        "hint": "Finalizador de lutas."
+    },
+    {
+        "id": 16,
+        "nivel": "FUNDAMENTOS",
+        "pergunta": "O que é 'Kiting' (ou Orbwalking)?",
+        "opcoes": {
+            "A": "Usar o Flash para atravessar paredes.",
+            "B": "Alternar ataques básicos e movimento para manter distância do alvo.",
+            "C": "Ficar parado atacando o inimigo mais próximo.",
+            "D": "Comprar itens de velocidade de ataque."
+        },
+        "correta": "B",
+        "explicacao": "Essencial para ADCs, permite causar dano enquanto se move, dificultando a aproximação de campeões corpo-a-corpo.",
+        "hint": "Atacar e mover."
+    },
+    {
+        "id": 17,
+        "nivel": "INTERMEDIÁRIO",
+        "pergunta": "O que é 'Checar arbusto com o rosto' (Facecheck) e por que é ruim?",
+        "opcoes": {
+            "A": "Usar uma habilidade para ver o que tem na moita.",
+            "B": "Entrar fisicamente em um arbusto sem visão; risco de morte instantânea.",
+            "C": "Colocar uma sentinela de longe.",
+            "D": "Usar a Alteração Vidente (Azul)."
+        },
+        "correta": "B",
+        "explicacao": "Entrar sem visão em áreas desconhecidas é a causa número 1 de mortes evitáveis no Mid Game.",
+        "hint": "Não entre sem saber."
+    },
+    {
+        "id": 18,
+        "nivel": "AVANÇADO",
+        "pergunta": "Em qual situação o 'Proxy' (farmar entre as torres inimigas) é útil?",
+        "opcoes": {
+            "A": "Quando você está muito atrás e quer morrer para resetar o ouro.",
+            "B": "Para forçar o oponente a farmar sob a torre e criar janela de gank ou roaming.",
+            "C": "Para roubar os buffs do seu próprio caçador.",
+            "D": "Quando você não tem wards no mapa."
+        },
+        "correta": "B",
+        "explicacao": "O Proxy impede que os minions inimigos cheguem na sua torre, mantendo a pressão constante e impedindo o oponente de sair da rota.",
+        "hint": "Intercepte os minions antes."
+    },
+    {
+        "id": 19,
+        "nivel": "INICIANTE",
+        "pergunta": "Qual a importância de olhar o Minimapa a cada 3-5 segundos?",
+        "opcoes": {
+            "A": "Nenhuma, o jogo avisa quando alguém morre.",
+            "B": "Para ver o farm do seu time.",
+            "C": "Para identificar a posição do caçador inimigo e evitar ganks precocemente.",
+            "D": "Apenas para ver onde o Dragão está."
+        },
+        "correta": "C",
+        "explicacao": "A visão de mapa é a diferença mais nítida entre um jogador Bronze e um Diamante. Informação é poder.",
+        "hint": "O GPS do jogo."
+    },
+    {
+        "id": 20,
+        "nivel": "INTERMEDIÁRIO",
+        "pergunta": "O que é 'Scaling' (Escalonamento)?",
+        "opcoes": {
+            "A": "É a habilidade de pular paredes.",
+            "B": "A capacidade de um campeão ficar exponencialmente mais forte com itens e níveis no Late Game.",
+            "C": "Aumentar o tamanho do modelo do campeão.",
+            "D": "Ganhar mais ouro por abate."
+        },
+        "correta": "B",
+        "explicacao": "Campeões como Kassadin e Vayne têm 'scaling' alto, significando que vencem o jogo se ele demorar o suficiente.",
+        "hint": "Forte no final."
+    },
+    {
+        "id": 21,
+        "nivel": "AVANÇADO",
+        "pergunta": "Como lidar com uma composição inimiga de 'Wombo Combo' (ex: Malphite + Yasuo)?",
+        "opcoes": {
+            "A": "Andar todos juntos para proteger o ADC.",
+            "B": "Manter o espaçamento entre os aliados para que o inimigo não acerte várias pessoas com um CC.",
+            "C": "Tentar lutar apenas dentro do rio.",
+            "D": "Focar o tanque inimigo primeiro."
+        },
+        "correta": "B",
+        "explicacao": "O espaçamento (spacing) impede que habilidades de área (AoE) destruam o time inteiro de uma vez.",
+        "hint": "Não fiquem agrupados."
+    },
+    {
+        "id": 22,
+        "nivel": "INICIANTE",
+        "pergunta": "Para que serve o feitiço de invocador 'Exaustão'?",
+        "opcoes": {
+            "A": "Para dar dano verdadeiro no tempo.",
+            "B": "Para reduzir o dano e a velocidade de movimento do inimigo temporariamente.",
+            "C": "Para curar aliados próximos.",
+            "D": "Para revelar inimigos invisíveis."
+        },
+        "correta": "B",
+        "explicacao": "Fundamental contra assassinos ou ADCs agressivos para anular o potencial de 'burst' (dano explosivo) deles.",
+        "hint": "Corta o dano inimigo."
+    },
+    {
+        "id": 23,
+        "nivel": "INTERMEDIÁRIO",
+        "pergunta": "Qual o melhor momento para usar o Teleporte ofensivamente?",
+        "opcoes": {
+            "A": "Sempre que estiver disponível para voltar para a rota.",
+            "B": "Em uma ward atrás dos inimigos durante uma luta no bot ou dragão.",
+            "C": "Para chegar mais rápido em um campo da selva.",
+            "D": "Para fugir de um gank inimigo."
+        },
+        "correta": "B",
+        "explicacao": "O 'Flanco' com TP pode mudar o rumo de uma partida, pegando os carregadores inimigos desprevenidos por trás.",
+        "hint": "Pegue-os por trás."
+    },
+    {
+        "id": 24,
+        "nivel": "AVANÇADO",
+        "pergunta": "O que é 'Freeze' e quando não se deve fazer?",
+        "opcoes": {
+            "A": "Manter a wave perto da sua torre; não deve ser feito se você precisa de prioridade para um objetivo.",
+            "B": "Empurrar a wave rápido; não deve ser feito se você está ganhando.",
+            "C": "Ficar parado no arbusto; não deve ser feito se o inimigo tem visão.",
+            "D": "Vender seus itens; nunca deve ser feito."
+        },
+        "correta": "A",
+        "explicacao": "O Freeze nega farm ao inimigo, mas te prende na rota. Se o seu caçador precisa de ajuda no Dragão, você deve quebrar o freeze e empurrar.",
+        "hint": "Controle de minion vs Pressão de mapa."
+    },
+    {
+        "id": 25,
+        "nivel": "INICIANTE",
+        "pergunta": "O que as 'Placas de Torre' fornecem?",
+        "opcoes": {
+            "A": "Apenas experiência extra.",
+            "B": "Ouro local para quem estiver perto da torre ao destruí-las.",
+            "C": "Dano extra contra o caçador inimigo.",
+            "D": "Redução no tempo de recarga do Flash."
+        },
+        "correta": "B",
+        "explicacao": "Cada placa vale 125 de ouro (valor base), sendo uma das formas mais consistentes de abrir vantagem financeira no early game.",
+        "hint": "Dinheiro na torre."
+    },
+    {
+        "id": 26,
+        "nivel": "INTERMEDIÁRIO",
+        "pergunta": "O que é 'Crowd Control' (CC) de cadeia ou sobreposição?",
+        "opcoes": {
+            "A": "Usar todos os stuns ao mesmo tempo no mesmo alvo.",
+            "B": "Sincronizar habilidades de controle para que uma comece exatamente quando a outra terminar.",
+            "C": "Usar habilidades de dano em área.",
+            "D": "Comprar itens de redução de tenacidade."
+        },
+        "correta": "B",
+        "explicacao": "Sobrepor stuns (usar tudo junto) desperdiça tempo de imobilização. Encadear stuns impede que o inimigo use Flash ou habilidades por muito mais tempo.",
+        "hint": "Um depois do outro."
+    },
+    {
+        "id": 27,
+        "nivel": "AVANÇADO",
+        "pergunta": "O que é o conceito de 'Tempo' no LoL?",
+        "opcoes": {
+            "A": "O cronômetro que marca a duração da partida.",
+            "B": "A vantagem de iniciativa ganha ao realizar ações mais rápido que o oponente (ex: Recall eficiente).",
+            "C": "O tempo de recarga das habilidades de invocador.",
+            "D": "A hora certa de desistir de um jogo."
+        },
+        "correta": "B",
+        "explicacao": "Ganhar 'Tempo' significa que você agiu e voltou ao mapa antes do oponente, permitindo que você dite o ritmo da próxima jogada.",
+        "hint": "Ritmo e iniciativa."
+    },
+    {
+        "id": 28,
+        "nivel": "INICIANTE",
+        "pergunta": "Por que não se deve 'focar o tanque' cegamente em todas as lutas?",
+        "opcoes": {
+            "A": "Porque tanques dão mais dano que os carregadores.",
+            "B": "Porque tanques têm muita vida/resistência e o objetivo é matar quem causa dano.",
+            "C": "Porque tanques explodem ao morrer.",
+            "D": "Porque tanques são imunes a ataques básicos."
+        },
+        "correta": "B",
+        "explicacao": "Gastar todos os seus recursos em um tanque deixa os carregadores inimigos (ADC/Mid) livres para destruir seu time.",
+        "hint": "Alvos prioritários."
+    },
+    {
+        "id": 29,
+        "nivel": "INTERMEDIÁRIO",
+        "pergunta": "Qual a importância estratégica do Inibidor?",
+        "opcoes": {
+            "A": "Ele faz o Nexus ficar vulnerável imediatamente.",
+            "B": "Ele gera Superminions que aplicam pressão automática na rota, forçando o inimigo a defender.",
+            "C": "Ele aumenta o dano do Barão Nashor.",
+            "D": "Ele concede ouro global para todo o time a cada 10 segundos."
+        },
+        "correta": "B",
+        "explicacao": "Ter uma rota com Superminions permite que seu time foque em objetivos no outro lado do mapa em vantagem numérica (4v5).",
+        "hint": "Pressão passiva."
+    },
+    {
+        "id": 30,
+        "nivel": "AVANÇADO",
+        "pergunta": "O que é 'Draft' e como ele influencia o jogo?",
+        "opcoes": {
+            "A": "A fase de escolha de campeões; define as condições de vitória e sinergias do time.",
+            "B": "O sistema de recompensas por objetivos.",
+            "C": "A velocidade com que os minions nascem.",
+            "D": "O comando para render-se."
+        },
+        "correta": "A",
+        "explicacao": "Muitos jogos em alto nível são decididos no Draft. Entender se sua composição é de Split, Luta ou Poke dita como você deve jogar.",
+        "hint": "Estratégia antes de entrar no Rift."
+    },
+    {
+        "id": 31,
+        "nivel": "AVANÇADO",
+        "pergunta": "[CENÁRIO] Você está de Garen contra uma Camille. Você solou ela e sobrou com 10% de vida. A wave está vindo na direção da sua torre (Slow Push inimigo). O que você faz?",
+        "opcoes": {
+            "A": "Tenta limpar a wave rápido antes de dar recall.",
+            "B": "Dá recall imediatamente, mesmo que perca alguns minions.",
+            "C": "Usa o Teleporte nos minions para garantir que eles não batam na torre.",
+            "D": "Fica na moita esperando a wave bater na torre para farmar seguro."
+        },
+        "correta": "B",
+        "explicacao": "Se a wave está vindo para você (Slow Push dela), ela vai 'congelar' perto da sua torre. Se você tentar limpar com 10% de vida, o Jungler dela te mata ou ela volta de TP e te mata. Dar recall garante que você volte com a wave em posição perfeita para você.",
+        "hint": "O risco de morrer com 10% de vida supera o ganho de 3 minions."
+    },
+    {
+        "id": 32,
+        "nivel": "INTERMEDIÁRIO",
+        "pergunta": "[CENÁRIO] O Arauto do Vale foi invocado no Mid. O Mid inimigo saiu da rota. Você deve focar em bater no Arauto ou nos Minions?",
+        "opcoes": {
+            "A": "No Arauto, para ele não bater na torre.",
+            "B": "Nos Minions, para que o Arauto não tenha proteção para bater na torre.",
+            "C": "No Mid inimigo que está rotacionando.",
+            "D": "Dar recall porque a torre já caiu."
+        },
+        "correta": "B",
+        "explicacao": "O Arauto causa dano fixo, mas se não houver minions aliados dele, ele morre muito mais rápido para a torre e você limpa a pressão mais eficientemente.",
+        "hint": "Sem minions, o cerco morre."
+    },
+    {
+        "id": 33,
+        "nivel": "MESTRE",
+        "pergunta": "O que é o 'Lado Forte' (Strong Side) e 'Lado Fraco' (Weak Side) para um Jungler?",
+        "opcoes": {
+            "A": "O lado onde o Jungler tem mais buffs disponíveis.",
+            "B": "Strong Side é a rota que o Jungler decide ajudar para carregar; Weak Side é a rota que deve jogar recuada e sobreviver sozinha.",
+            "C": "O lado do mapa onde o Barão nasce é sempre o Strong Side.",
+            "D": "Strong Side é quando você está ganhando e Weak Side é quando está perdendo."
+        },
+        "correta": "B",
+        "explicacao": "Entender que você é o 'Weak Side' no Bronze salva jogos. Se o seu jungler está no bot, você no top DEVE jogar recuado, pois o jungler inimigo provavelmente está perto de você.",
+        "hint": "Nem toda rota pode ser ajudada ao mesmo tempo."
+    },
+    {
+        "id": 34,
+        "nivel": "INTERMEDIÁRIO",
+        "pergunta": "[CENÁRIO] Você é o Suporte. Seu ADC deu recall, mas você tem 100% de vida e mana. Onde você deve estar?",
+        "opcoes": {
+            "A": "Esperando o ADC na base para voltarem juntos.",
+            "B": "Farmando os minions do ADC para o ouro não ser desperdiçado.",
+            "C": "Criando visão profunda na selva inimiga ou rotacionando para o Mid (Roam).",
+            "D": "Escondido na moita do Bot esperando o inimigo vacilar."
+        },
+        "correta": "C",
+        "explicacao": "O tempo que seu ADC está na base é o seu 'tempo livre'. Use-o para impactar outras rotas ou descobrir onde o caçador inimigo está.",
+        "hint": "Não seja um espectador no bot."
+    },
+    {
+        "id": 35,
+        "nivel": "AVANÇADO",
+        "pergunta": "Você está jogando contra um Blitzcrank. Qual a melhor forma de se posicionar na rota?",
+        "opcoes": {
+            "A": "Sempre atrás dos seus minions.",
+            "B": "Correndo em zigue-zague no rio.",
+            "C": "Ficar parado embaixo da torre.",
+            "D": "Avançar sem minions para intimidar o suporte inimigo."
+        },
+        "correta": "A",
+        "explicacao": "Minions são seu escudo contra 'skillshots' de puxar (Blitz, Thresh, Nautilus). Manter a wave entre você e o Blitz anula a maior arma dele.",
+        "hint": "Minions são paredes móveis."
+    },
+    {
+        "id": 36,
+        "nivel": "MESTRE",
+        "pergunta": "[PSICOLOGIA] O Jungler inimigo apareceu no Top aos 3:15 de jogo com o bônus Vermelho (Red). O que isso te diz sobre a rota dele?",
+        "opcoes": {
+            "A": "Ele começou no bônus Azul (Blue) e limpou a selva de baixo para cima.",
+            "B": "Ele está perdido e não sabe o que fazer.",
+            "C": "O bônus Azul dele está prestes a nascer no bot.",
+            "D": "Ele vai dar recall e ir direto para o Dragão."
+        },
+        "correta": "A",
+        "explicacao": "Saber onde o jungler começou permite prever onde ele estará pelos próximos 5 minutos. Se ele apareceu no Top agora, o Bot está seguro pelos próximos 2 minutos.",
+        "hint": "Rastreie o ponto de partida."
+    },
+    {
+        "id": 37,
+        "nivel": "AVANÇADO",
+        "pergunta": "Quando você DEVE 'ignorar' um sinal de ajuda (ping) de um aliado?",
+        "opcoes": {
+            "A": "Nunca, o time deve estar sempre junto.",
+            "B": "Quando a jogada oferecida é um 'suicídio coletivo' (ex: lutar 2v5 ou sem visão).",
+            "C": "Apenas se o aliado estiver sendo tóxico no chat.",
+            "D": "Sempre que você estiver farmando um canhão."
+        },
+        "correta": "B",
+        "explicacao": "No low elo, seguir chamadas ruins (bad calls) é o que mantém as pessoas no Bronze. Aprenda a dizer não para jogadas sem nexo estratégico.",
+        "hint": "Raciocínio próprio sobre pressão de grupo."
+    },
+    {
+        "id": 38,
+        "nivel": "INTERMEDIÁRIO",
+        "pergunta": "[CENÁRIO] Seu time levou o Inibidor do Mid aos 22 minutos. Qual o próximo passo?",
+        "opcoes": {
+            "A": "Tentar bater nas torres do Nexus para acabar o jogo logo.",
+            "B": "Rotacionar para uma rota lateral (Top/Bot) que ainda tenha torres de pé.",
+            "C": "Ficar no Mid esperando o inibidor renascer.",
+            "D": "Dar recall e ficar na base comemorando."
+        },
+        "correta": "B",
+        "explicacao": "Levar um inibidor abre o mapa. Não adianta forçar o Nexus se as outras rotas estão avançadas contra você. Use os Superminions do Mid como distração para levar as outras torres.",
+        "hint": "Dividir para conquistar."
+    },
+    {
+        "id": 39,
+        "nivel": "MESTRE",
+        "pergunta": "O que é 'Efeito Elástico' (Rubberbanding) na selva?",
+        "opcoes": {
+            "A": "Quando o jungler usa o bônus de velocidade do rio.",
+            "B": "O sistema que dá mais XP para acampamentos da selva se o Jungler estiver atrás no nível médio do jogo.",
+            "C": "Quando o monstro da selva te persegue e volta.",
+            "D": "A mecânica de puxar o inimigo com o Smite."
+        },
+        "correta": "B",
+        "explicacao": "Entender isso te faz parar de desesperar quando está atrás. Foque em limpar sua selva eficientemente para recuperar o nível rapidamente.",
+        "hint": "Mecânica de recuperação."
+    },
+    {
+        "id": 40,
+        "nivel": "AVANÇADO",
+        "pergunta": "Você é um ADC. A luta de equipe começou. Um Malphite inimigo ainda tem a Ultimate disponível. Como você se posiciona?",
+        "opcoes": {
+            "A": "Atrás do seu tanque, bem colado nele.",
+            "B": "Fora do alcance da Ultimate dele, esperando que ele a use em outra pessoa primeiro.",
+            "C": "Na frente, para tentar desviar da Ultimate com o Flash.",
+            "D": "Atacando o Malphite para matá-lo antes que ele use a Ultimate."
+        },
+        "correta": "B",
+        "explicacao": "Como ADC, sua vida é baseada em 'Checklist de Ameaças'. Se o Malphite tem Ult, você não existe na luta até ele gastar ou você estar seguro.",
+        "hint": "Respeite as Ultimates de iniciação."
+    },
+    {
+        "id": 41,
+        "nivel": "INTERMEDIÁRIO",
+        "pergunta": "Por que comprar 'Feridas Graves' (Corta Cura) cedo contra campeões como Soraka, Warwick ou Dr. Mundo?",
+        "opcoes": {
+            "A": "Para dar mais dano de ataque.",
+            "B": "Para reduzir a regeneração e cura deles, permitindo que o dano do seu time seja efetivo.",
+            "C": "Porque é o item mais barato da loja.",
+            "D": "Para aumentar sua própria cura."
+        },
+        "correta": "B",
+        "explicacao": "Ignorar o corta-cura no Bronze é o motivo de muitos Mundos e Warwicks parecerem imortais. 800 de ouro ganha a partida aqui.",
+        "hint": "Anule a mecânica principal do inimigo."
+    },
+    {
+        "id": 42,
+        "nivel": "MESTRE",
+        "pergunta": "[CENÁRIO] Você está de LeBlanc (Assassina) e o inimigo comprou 'Passos de Mercúrio' e 'Hexdrinker'. O que você faz?",
+        "opcoes": {
+            "A": "Continua tentando solar ele na rota.",
+            "B": "Para de buildar dano e faz tanque.",
+            "C": "Para de interagir com ele e foca em dar Roaming no Bot/Top.",
+            "D": "Vende seus itens e compra itens de dano físico."
+        },
+        "correta": "C",
+        "explicacao": "Se o inimigo investiu todo o ouro dele para não morrer para você, ele conseguiu. Não desperdice tempo. Mate os aliados dele que não compraram defesa.",
+        "hint": "Não bata a cabeça contra a parede."
+    },
+    {
+        "id": 43,
+        "nivel": "AVANÇADO",
+        "pergunta": "O que é 'Checar o Tab' (Tecla Tab) constantemente te ensina?",
+        "opcoes": {
+            "A": "Quem está com mais abates apenas.",
+            "B": "Itens inimigos, cronômetros de dragão, quem está morto e diferença de Farm (CS).",
+            "C": "O nome dos jogadores inimigos.",
+            "D": "Quantas wards você já colocou."
+        },
+        "correta": "B",
+        "explicacao": "O Tab é o seu painel de controle. Ver que o Mid inimigo fechou o item mítico antes de você te avisa que você NÃO deve lutar agora.",
+        "hint": "Informação vence mecânica."
+    },
+    {
+        "id": 44,
+        "nivel": "INTERMEDIÁRIO",
+        "pergunta": "Você está jogando contra um Yasuo. Qual o melhor momento para usar sua habilidade principal nele?",
+        "opcoes": {
+            "A": "Assim que ele entrar no seu alcance.",
+            "B": "Depois que ele gastar a Parede de Vento (W) ou enquanto ele está no meio do avanço (E).",
+            "C": "Sempre que ele estiver com o escudo da passiva ativo.",
+            "D": "Quando ele estiver embaixo da torre dele."
+        },
+        "correta": "B",
+        "explicacao": "O Yasuo depende da Parede de Vento para anular habilidades. Forçar o erro dele e atacar na janela de recarga é o segredo para vencer o duelo.",
+        "hint": "Monitore os tempos de recarga defensivos."
+    },
+    {
+        "id": 45,
+        "nivel": "MESTRE",
+        "pergunta": "Como o 'Abate de Torre' influencia o seu bônus de ouro se você estiver sozinho ou acompanhado?",
+        "opcoes": {
+            "A": "O ouro é o mesmo, não importa quantas pessoas estejam perto.",
+            "B": "O ouro local da torre é dividido entre todos os aliados presentes no raio da queda.",
+            "C": "Apenas quem dá o último golpe ganha ouro.",
+            "D": "Quem está morto não ganha ouro da torre."
+        },
+        "correta": "B",
+        "explicacao": "Às vezes, é melhor o suporte sair de perto da torre para o ADC pegar o ouro todo sozinho (Solo Gold) e acelerar o fechamento de itens.",
+        "hint": "Divisão de recursos."
+    },
+    {
+        "id": 46,
+        "nivel": "AVANÇADO",
+        "pergunta": "Seu time está discutindo no chat e parando de jogar. Qual a melhor atitude para vencer?",
+        "opcoes": {
+            "A": "Entrar na discussão para mostrar quem está certo.",
+            "B": "Dar 'Mute All' (mutar todos), focar no seu farm e usar apenas pings.",
+            "C": "Ficar parado na base até eles pararem de brigar.",
+            "D": "Ameaçar reportar todo mundo se não pararem."
+        },
+        "correta": "B",
+        "explicacao": "O estado emocional (Tilt) destrói mais partidas que a falta de habilidade. Mutar limpa seu foco e te permite jogar o seu melhor.",
+        "hint": "Foco no jogo, não no chat."
+    },
+    {
+        "id": 47,
+        "nivel": "INTERMEDIÁRIO",
+        "pergunta": "O que é 'Overstay' e por que ele é perigoso?",
+        "opcoes": {
+            "A": "Ficar tempo demais na base comprando itens.",
+            "B": "Ficar na rota ou objetivo com pouca vida/recursos após uma jogada, permitindo que o inimigo volte e te mate.",
+            "C": "Usar o Flash para tentar matar alguém embaixo da torre.",
+            "D": "Andar pelo mapa sem rumo."
+        },
+        "correta": "B",
+        "explicacao": "Muitos bronzes levam uma torre e tentam levar a segunda sem vida. O inimigo volta, mata todos e recupera o jogo. Leve o objetivo e saia!",
+        "hint": "Saiba a hora de ir embora."
+    },
+    {
+        "id": 48,
+        "nivel": "MESTRE",
+        "pergunta": "Como 'Ditar o Ritmo' de uma partida sendo o Suporte?",
+        "opcoes": {
+            "A": "Dando o último golpe em todos os minions.",
+            "B": "Sendo o primeiro a chegar nos objetivos e limpando a visão inimiga minutos antes do spawn.",
+            "C": "Comprando itens de dano mágico.",
+            "D": "Ficando atrás do ADC o tempo todo."
+        },
+        "correta": "B",
+        "explicacao": "Suportes High Elo jogam o jogo 2 minutos à frente. Se o dragão nasce em 1:30, eles já estão colocando wards lá AGORA.",
+        "hint": "Antecipação de objetivos."
+    },
+    {
+        "id": 49,
+        "nivel": "AVANÇADO",
+        "pergunta": "Você é um Jungler. Todas as suas rotas estão perdendo sozinhas. Qual a melhor estratégia?",
+        "opcoes": {
+            "A": "Tentar gankar todas ao mesmo tempo para ajudar.",
+            "B": "Identificar a rota que tem mais chance de 'carregar' e focar nela, ou farmar para tentar ser o carregador.",
+            "C": "Ficar na base esperando o jogo acabar.",
+            "D": "Culpar os aliados no chat."
+        },
+        "correta": "B",
+        "explicacao": "Você não consegue salvar três rotas perdidas. Escolha a sua melhor 'condição de vitória' e jogue por ela.",
+        "hint": "Gestão de danos."
+    },
+    {
+        "id": 50,
+        "nivel": "INTERMEDIÁRIO",
+        "pergunta": "O que é o 'Fog of War' (Névoa de Guerra) para um Mid Laner Assassino?",
+        "opcoes": {
+            "A": "Um lugar perigoso onde ele nunca deve entrar.",
+            "B": "Sua melhor ferramenta: Sumir do mapa para botar medo nas rotas laterais inimigas.",
+            "C": "Onde ficam as sentinelas de controle.",
+            "D": "Um bônus de dano invisível."
+        },
+        "correta": "B",
+        "explicacao": "Se a Katarina ou o Zed somem do Mid, o Bot inimigo é forçado a recuar. Mesmo que você não ganke, o 'sumiço' já cria pressão.",
+        "hint": "Pressão invisível."
+    },
+    {
+        "id": 51,
+        "nivel": "MESTRE",
+        "pergunta": "O jogo está empatado aos 40 minutos. O Dragão Ancião e o Barão estão vivos. O time inimigo começou o Barão. O que você faz?",
+        "opcoes": {
+            "A": "Tenta contestar o Barão a qualquer custo.",
+            "B": "Troca o Barão pelo Dragão Ancião.",
+            "C": "Dá recall e espera eles na base.",
+            "D": "Fica farmando a selva."
+        },
+        "correta": "B",
+        "explicacao": "O Dragão Ancião é o buff de combate mais forte. Trocar um Barão por um Ancião geralmente é vantajoso, pois o Ancião permite ganhar a luta final.",
+        "hint": "Prioridade de Buffs finais."
+    },
+    {
+        "id": 52,
+        "nivel": "AVANÇADO",
+        "pergunta": "Você está de Twisted Fate. Sua Ultimate está disponível. O que você deve estar olhando?",
+        "opcoes": {
+            "A": "Para os seus próprios minions no Mid.",
+            "B": "Constantemente para as outras rotas (clicando no mapa ou usando as teclas F1-F5).",
+            "C": "Para a loja para ver o próximo item.",
+            "D": "Para o seu tempo de recarga da mana."
+        },
+        "correta": "B",
+        "explicacao": "Campeões globais (TF, Shen, Galio) exigem que você jogue olhando os aliados, não o seu próprio campeão.",
+        "hint": "Visão periférica."
+    },
+    {
+        "id": 53,
+        "nivel": "INTERMEDIÁRIO",
+        "pergunta": "O que significa 'Resetar a Rota'?",
+        "opcoes": {
+            "A": "Morrer para o inimigo.",
+            "B": "Fazer com que as waves se encontrem novamente no centro da lane.",
+            "C": "Vender todos os itens e recomeçar.",
+            "D": "Deslogar e logar de novo."
+        },
+        "correta": "B",
+        "explicacao": "Se a wave está ruim para você, você precisa forçá-la a bater na torre inimiga para que ela volte ao centro, garantindo segurança.",
+        "hint": "Equilíbrio de minions."
+    },
+    {
+        "id": 54,
+        "nivel": "MESTRE",
+        "pergunta": "Qual a diferença entre 'Hard CC' e 'Soft CC'?",
+        "opcoes": {
+            "A": "Hard CC é mais difícil de acertar.",
+            "B": "Hard CC impede ações (Stun, Supressão); Soft CC apenas dificulta (Slow, Silêncio).",
+            "C": "Soft CC dura mais tempo.",
+            "D": "Hard CC só existe em tanques."
+        },
+        "correta": "B",
+        "explicacao": "Saber se você pode usar Flash após um CC (Soft) ou se está totalmente travado (Hard) define se você sobrevive a um gank.",
+        "hint": "Graus de imobilização."
+    },
+    {
+        "id": 55,
+        "nivel": "AVANÇADO",
+        "pergunta": "Por que o 'Arauto do Vale' morre instantaneamente se o olho nas costas dele for atingido?",
+        "opcoes": {
+            "A": "É um bug do jogo.",
+            "B": "É a mecânica de ponto fraco para permitir que qualquer campeão o faça rápido.",
+            "C": "Apenas o caçador pode ver o olho.",
+            "D": "O olho só abre quando o Arauto está com pouca vida."
+        },
+        "correta": "B",
+        "explicacao": "Muitos jogadores no Bronze demoram demais para fazer o Arauto porque não batem no olho. Bater no olho tira uma porcentagem enorme da vida dele.",
+        "hint": "Ponto fraco mecânico."
+    },
+    {
+        "id": 56,
+        "nivel": "INTERMEDIÁRIO",
+        "pergunta": "O que é 'Dive' e qual o maior erro ao executá-lo?",
+        "opcoes": {
+            "A": "Atacar o inimigo embaixo da torre dele; o erro é não alternar o foco da torre entre os aliados.",
+            "B": "Pular no rio sem visão.",
+            "C": "Usar o Flash para fugir.",
+            "D": "Comprar itens de armadura contra magos."
+        },
+        "correta": "A",
+        "explicacao": "No Dive, quem ataca primeiro leva o tiro da torre. Saber quem deve tankar e quando sair é o que diferencia um abate de um desastre.",
+        "hint": "Gestão de dano da torre."
+    },
+    {
+        "id": 57,
+        "nivel": "MESTRE",
+        "pergunta": "Em uma luta pela Alma do Dragão, o Jungler inimigo está morto. Qual a sua prioridade?",
+        "opcoes": {
+            "A": "Focar o ADC inimigo.",
+            "B": "Garantir o Dragão com segurança, já que o Smite inimigo não existe.",
+            "C": "Tentar dar Penta Kill.",
+            "D": "Dar recall para gastar ouro."
+        },
+        "correta": "B",
+        "explicacao": "Se o Jungler deles não está lá, o objetivo é SEU. Não arrisque perder o dragão para um roubo acidental de um suporte ou lux.",
+        "hint": "Objetivo garantido."
+    },
+    {
+        "id": 58,
+        "nivel": "AVANÇADO",
+        "pergunta": "Quando 'Congelar' (Freeze) a rota é RUIM?",
+        "opcoes": {
+            "A": "Quando você está ganhando a rota.",
+            "B": "Quando o inimigo está dando Roaming e você precisa puni-lo levando a torre ou seguindo.",
+            "C": "Quando você tem pouca vida.",
+            "D": "Quando o seu jungler vai gankar."
+        },
+        "correta": "B",
+        "explicacao": "Congelar a rota mantém você seguro, mas permite que o inimigo destrua o resto do seu time no mapa. Se ele saiu da rota, empurre!",
+        "hint": "Punição de ausência."
+    },
+    {
+        "id": 59,
+        "nivel": "INTERMEDIÁRIO",
+        "pergunta": "O que é 'Burst Damage'?",
+        "opcoes": {
+            "A": "Dano causado ao longo de muito tempo.",
+            "B": "Uma grande quantidade de dano causada em um intervalo de tempo muito curto.",
+            "C": "Dano causado apenas a torres.",
+            "D": "Dano que cura o aliado."
+        },
+        "correta": "B",
+        "explicacao": "Assassinos e Magos de controle dependem de Burst. Saber se o inimigo tem 'Burst' suficiente para te matar define se você pode ou não se aproximar.",
+        "hint": "Dano instantâneo."
+    },
+    {
+        "id": 60,
+        "nivel": "MESTRE",
+        "pergunta": "Como você ganha um jogo onde o seu time está pior tecnicamente, mas você é um Split Pusher?",
+        "opcoes": {
+            "A": "Tenta forçar lutas de 5v5 para ver se ganha na sorte.",
+            "B": "Atrai a atenção de 2 ou 3 inimigos para sua rota, foge vivo e dá tempo para seu time levar objetivos do outro lado.",
+            "C": "Fica na base defendendo.",
+            "D": "Critica a build dos aliados."
+        },
+        "correta": "B",
+        "explicacao": "O Split Push não é sobre levar a torre, é sobre criar pressão. Se 3 vieram te buscar e você não morreu, seu time tem um 4v2 no resto do mapa.",
+        "hint": "Crie espaço."
+    }
+]

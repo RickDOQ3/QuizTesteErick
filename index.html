@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>League of Legends: Macro Quiz</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&family=Roboto:wght@300;400;500;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="icon" href="data:image/svg+xml,
+										<svg
+											xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22>
+											<text y=%22.9em%22 font-size=%2290%22>🎮</text>
+										</svg>">
+</head>
+
+<body>
+  <div class="container">
+    <!-- Tela de Início -->
+    <div id="start-screen" class="screen active">
+      <div class="header">
+        <h1>
+          <i class="fas fa-gamepad"></i> Quizz Hub
+        </h1>
+        <h2>AGORA <span class="highlight">você não esquece mais!</span>
+        </h2>
+      </div>
+      <div class="game-description">
+        <p>
+          <i class="fas fa-exclamation-circle"></i> Aqui terá perguntas para você testar seu conhecimento.
+        </p>
+        <p>Escolha seu <span class="highlight">modo de Quizz</span> e personalize sua experiência! </p>
+      </div>
+      <div class="modes-container">
+        <button id="start-btn" class="btn-primary">
+          <i class="fas fa-play"></i> Iniciar Quiz </button>
+        <h3>
+          <i class="fas fa-flag"></i> Modos de Quizz:
+        </h3>
+        <div class="modes-grid">
+          <div class="mode-card" data-mode="classic">
+            <div class="mode-icon">
+              <i class="fas fa-graduation-cap"></i>
+            </div>
+            <h4>Clássico</h4>
+            <p>20 perguntas aleatórias</p>
+            <div class="mode-tag">Padrão</div>
+          </div>
+          <div class="mode-card" data-mode="timer">
+            <div class="mode-icon">
+              <i class="fas fa-clock"></i>
+            </div>
+            <h4>Corra Contra o Tempo</h4>
+            <p>Responda antes do tempo acabar!</p>
+            <div class="mode-tag">Ação</div>
+          </div>
+          <div class="mode-card" data-mode="survival">
+            <div class="mode-icon">
+              <i class="fas fa-heart"></i>
+            </div>
+            <h4>Sobrevivência</h4>
+            <p>5 vidas - cada erro custa uma vida</p>
+            <div class="mode-tag">Desafio</div>
+          </div>
+          <div class="mode-card" data-mode="infinite">
+            <div class="mode-icon">
+              <i class="fas fa-infinity"></i>
+            </div>
+            <h4>Infinito</h4>
+            <p>Perguntas sem fim!</p>
+            <div class="mode-tag">Endless</div>
+          </div>
+        </div>
+      </div>
+      <div class="config-section">
+        <div class="config-panel">
+          <h3>
+            <i class="fas fa-sliders-h"></i> Configurações do Quiz:
+          </h3>
+          <div class="config-grid">
+            <div class="config-item">
+              <label for="questions-count">Perguntas:</label>
+              <input type="number" id="questions-count" min="5" max="100" value="20">
+            </div>
+            <div class="config-item">
+              <label for="timer-seconds">Tempo (seg):</label>
+              <input type="number" id="timer-seconds" min="10" max="120" value="30">
+            </div>
+            <div class="config-item">
+              <label for="lives-count">Vidas:</label>
+              <input type="number" id="lives-count" min="1" max="10" value="5">
+            </div>
+          </div>
+          <div class="config-options">
+            <label class="checkbox-container">
+              <input type="checkbox" id="shuffle-questions" checked>
+              <span class="checkmark"></span> Embaralhar perguntas </label>
+            <label class="checkbox-container">
+              <input type="checkbox" id="shuffle-options" checked>
+              <span class="checkmark"></span> Embaralhar opções </label>
+          </div>
+        </div>
+        <div class="customization-panel">
+          <h3>
+            <i class="fas fa-paint-brush"></i> Personalização:
+          </h3>
+          <div class="theme-selector">
+            <h4>
+              <i class="fas fa-palette"></i> Tema:
+            </h4>
+            <div class="theme-options">
+              <div class="theme-option active" data-theme="dark" title="Escuro">
+                <div class="theme-preview dark"></div>
+                <span>Escuro</span>
+              </div>
+              <div class="theme-option" data-theme="blue" title="Azul">
+                <div class="theme-preview blue"></div>
+                <span>Azul</span>
+              </div>
+              <div class="theme-option" data-theme="green" title="Verde">
+                <div class="theme-preview green"></div>
+                <span>Verde</span>
+              </div>
+              <div class="theme-option" data-theme="purple" title="Roxo">
+                <div class="theme-preview purple"></div>
+                <span>Roxo</span>
+              </div>
+              <div class="theme-option" data-theme="red" title="Vermelho">
+                <div class="theme-preview red"></div>
+                <span>Vermelho</span>
+              </div>
+            </div>
+          </div>
+          <div class="font-selector">
+            <h4>
+              <i class="fas fa-font"></i> Fonte:
+            </h4>
+            <select id="font-select">
+              <option value="Roboto">Roboto (Padrão)</option>
+              <option value="Arial">Arial</option>
+              <option value="Verdana">Verdana</option>
+              <option value="Georgia">Georgia</option>
+              <option value="Courier New">Courier New</option>
+              <option value="Roboto Mono">Roboto Mono</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="sound-panel">
+        <h3>
+          <i class="fas fa-volume-up"></i> Sistema de Sons:
+        </h3>
+        <div class="sound-controls">
+          <div class="sound-toggle">
+            <button id="sound-toggle" class="btn-toggle active">
+              <i class="fas fa-volume-up"></i> Sons </button>
+            <button id="music-toggle" class="btn-toggle">
+              <i class="fas fa-music"></i> Música </button>
+          </div>
+          <div class="volume-controls">
+            <h4>
+              <i class="fas fa-sliders-h"></i> Controles de Volume:
+            </h4>
+            <div class="volume-slider-container">
+              <div class="volume-label">
+                <i class="fas fa-music"></i>
+                <span>Música de Fundo</span>
+                <span id="bg-music-volume-value" class="volume-value">30%</span>
+              </div>
+              <input type="range" id="bg-music-volume" class="volume-slider" min="0" max="100" value="30" step="1">
+            </div>
+            <div class="volume-slider-container">
+              <div class="volume-label">
+                <i class="fas fa-volume-up"></i>
+                <span>Efeitos Sonoros</span>
+                <span id="sfx-volume-value" class="volume-value">100%</span>
+              </div>
+              <input type="range" id="sfx-volume" class="volume-slider" min="0" max="100" value="100" step="1">
+            </div>
+          </div>
+          <div class="sound-test">
+            <button id="test-correct" class="btn-test">
+              <i class="fas fa-check"></i> Testar Correto </button>
+            <button id="test-wrong" class="btn-test">
+              <i class="fas fa-times"></i> Testar Errado </button>
+            <button id="test-music" class="btn-test">
+              <i class="fas fa-play"></i> Testar Música </button>
+            <!-- Botão para parar a música -->
+            <button id="stop-music-btn" class="btn-test stop-btn">
+              <i class="fas fa-stop"></i> Parar Música
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+
+  </div>
+  <!-- Tela do Quiz -->
+  <div id="quiz-screen" class="screen">
+    <div class="quiz-header">
+      <div class="quiz-info">
+        <div class="mode-indicator">
+          <span id="current-mode">CLÁSSICO</span>
+        </div>
+        <div class="stats">
+          <div class="stat-item">
+            <i class="fas fa-question-circle"></i>
+            <span id="question-counter">1/20</span>
+          </div>
+          <div class="stat-item">
+            <i class="fas fa-star"></i>
+            <span id="score-counter">0</span>
+          </div>
+          <div class="stat-item lives" id="lives-container">
+            <i class="fas fa-heart"></i>
+            <span id="lives-counter">5</span>
+          </div>
+          <div class="stat-item timer" id="timer-container">
+            <i class="fas fa-clock"></i>
+            <span id="timer-counter">30s</span>
+          </div>
+        </div>
+      </div>
+      <div class="progress-container">
+        <div class="progress-bar">
+          <div id="progress-fill" class="progress-fill"></div>
+        </div>
+        <div class="progress-text" id="progress-text">5%</div>
+      </div>
+    </div>
+    <div class="question-area">
+      <div class="level-indicator">
+        <span id="current-level">FUNDAMENTOS</span>
+      </div>
+      <div id="scenario" class="scenario"> Carregando cenário... </div>
+      <div id="question-text" class="question-text"> Carregando pergunta... </div>
+      <div class="options-grid">
+        <button class="option-btn" data-option="A">
+          <span class="option-letter">A</span>
+          <span class="option-text" id="option-a">Carregando opção A...</span>
+        </button>
+        <button class="option-btn" data-option="B">
+          <span class="option-letter">B</span>
+          <span class="option-text" id="option-b">Carregando opção B...</span>
+        </button>
+        <button class="option-btn" data-option="C">
+          <span class="option-letter">C</span>
+          <span class="option-text" id="option-c">Carregando opção C...</span>
+        </button>
+        <button class="option-btn" data-option="D">
+          <span class="option-letter">D</span>
+          <span class="option-text" id="option-d">Carregando opção D...</span>
+        </button>
+      </div>
+    </div>
+    <div class="quiz-controls">
+      <button id="pause-btn" class="btn-secondary">
+        <i class="fas fa-pause"></i> Pausar </button>
+      <button id="hint-btn" class="btn-secondary">
+        <i class="fas fa-lightbulb"></i> Dica </button>
+      <button id="skip-btn" class="btn-secondary">
+        <i class="fas fa-forward"></i> Pular </button>
+    </div>
+    <div class="feedback-container" id="feedback-container" style="display: none;">
+      <div class="feedback-header">
+        <h3>
+          <i class="fas fa-chalkboard-teacher"></i> ANÁLISE DO COACH
+        </h3>
+        <div class="result-badge">
+          <span id="result-text">CORRETO!</span>
+        </div>
+      </div>
+      <div id="feedback-text" class="feedback-text"> Explicação da resposta... </div>
+      <button id="next-btn" class="btn-primary">
+        <i class="fas fa-forward"></i> Próxima Pergunta </button>
+    </div>
+  </div>
+  <!-- Tela de Pausa -->
+  <div id="pause-screen" class="screen">
+    <div class="pause-content">
+      <h2>
+        <i class="fas fa-pause-circle"></i> JOGO PAUSADO
+      </h2>
+      <div class="pause-stats">
+        <div class="pause-stat">
+          <h4>Modo Atual</h4>
+          <p id="pause-mode">Clássico</p>
+        </div>
+        <div class="pause-stat">
+          <h4>Pergunta</h4>
+          <p id="pause-question">1/20</p>
+        </div>
+        <div class="pause-stat">
+          <h4>Pontuação</h4>
+          <p id="pause-score">0</p>
+        </div>
+        <div class="pause-stat">
+          <h4>Tempo Restante</h4>
+          <p id="pause-time">30s</p>
+        </div>
+      </div>
+      <div class="pause-options">
+        <button id="resume-btn" class="btn-primary">
+          <i class="fas fa-play"></i> Continuar </button>
+        <button id="restart-btn" class="btn-secondary">
+          <i class="fas fa-redo"></i> Reiniciar </button>
+        <button id="quit-btn" class="btn-secondary">
+          <i class="fas fa-home"></i> Sair para Menu </button>
+      </div>
+      <div class="pause-tips">
+        <h4>
+          <i class="fas fa-lightbulb"></i> Dica:
+        </h4>
+        <p id="pause-tip">Leia atentamente o cenário antes de responder.</p>
+      </div>
+    </div>
+  </div>
+  <!-- Tela de Resultados -->
+  <div id="results-screen" class="screen">
+    <div class="results-content">
+      <div class="results-header">
+        <h1>
+          <i class="fas fa-trophy"></i> RESULTADOS
+        </h1>
+        <div class="mode-badge" id="results-mode">CLÁSSICO</div>
+      </div>
+      <div class="score-display">
+        <div class="score-circle">
+          <svg width="200" height="200">
+            <circle cx="100" cy="100" r="90" stroke="#2a2a3c" stroke-width="10" fill="none"></circle>
+            <circle id="score-circle" cx="100" cy="100" r="90" stroke="#00b7c2" stroke-width="10" fill="none"
+              stroke-dasharray="565.48" stroke-dashoffset="565.48"></circle>
+          </svg>
+          <div class="score-text">
+            <span id="final-score">0</span>/ <span id="total-questions">20</span>
+            <div id="score-percentage">0%</div>
+          </div>
+        </div>
+      </div>
+      <div class="results-stats">
+        <div class="result-stat">
+          <i class="fas fa-clock"></i>
+          <div>
+            <h4>Tempo Total</h4>
+            <p id="total-time">0:00</p>
+          </div>
+        </div>
+        <div class="result-stat">
+          <i class="fas fa-bolt"></i>
+          <div>
+            <h4>Tempo Médio</h4>
+            <p id="avg-time">0s</p>
+          </div>
+        </div>
+        <div class="result-stat">
+          <i class="fas fa-heart"></i>
+          <div>
+            <h4>Vidas Restantes</h4>
+            <p id="final-lives">5</p>
+          </div>
+        </div>
+        <div class="result-stat">
+          <i class="fas fa-fire"></i>
+          <div>
+            <h4>Sequência</h4>
+            <p id="streak">0</p>
+          </div>
+        </div>
+      </div>
+      <div class="elo-result">
+        <h2 id="elo-title">FERRO / BRONZE</h2>
+        <p id="elo-message">Você está jogando no automático. Precisa parar de olhar para a vida dos inimigos e começar a
+          olhar para o mapa e minions.</p>
+      </div>
+      <div class="results-actions">
+        <button id="new-game-btn" class="btn-primary">
+          <i class="fas fa-play"></i> Novo Jogo </button>
+        <button id="menu-btn" class="btn-secondary">
+          <i class="fas fa-home"></i> Menu Principal </button>
+        <button id="share-btn" class="btn-secondary">
+          <i class="fas fa-share"></i> Compartilhar </button>
+      </div>
+      <div class="history">
+        <h3>
+          <i class="fas fa-history"></i> Histórico de Respostas
+        </h3>
+        <div id="answers-history" class="answers-history">
+          <!-- Histórico será gerado dinamicamente -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Notificação -->
+  <div id="notification" class="notification">
+    <div class="notification-content">
+      <i id="notification-icon" class="fas fa-info-circle"></i>
+      <span id="notification-text"></span>
+    </div>
+  </div>
+  <!-- Modal de Dica -->
+  <div id="hint-modal" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3>
+          <i class="fas fa-lightbulb"></i> Dica
+        </h3>
+        <button class="modal-close">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p id="hint-text">Carregando dica...</p>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- Elementos de Áudio -->
+  <audio id="correct-sound" src="correct.mp3" preload="auto"></audio>
+  <audio id="wrong-sound" src="wrong.mp3" preload="auto"></audio>
+  <audio id="click-sound" src="click.mp3" preload="auto"></audio>
+  <audio id="bg-music" src="bgMusic.mp3" loop preload="auto"></audio>
+  <audio id="timer-sound" src="timer.mp3" preload="auto"></audio>
+  <script src="script.js"></script>
+</body>
+
+</html>
